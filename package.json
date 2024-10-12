@@ -14,12 +14,15 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "aos": "^3.0.0-beta.6",
     "pinia": "^2.2.4",
+    "typed.js": "^2.1.0",
     "vue": "^3.5.11",
     "vue-router": "^4.4.5"
   },
   "devDependencies": {
     "@tsconfig/node20": "^20.1.4",
+    "@types/aos": "^3.0.7",
     "@types/node": "^20.16.11",
     "@vitejs/plugin-vue": "^5.1.4",
     "@vue/eslint-config-prettier": "^10.0.0",
