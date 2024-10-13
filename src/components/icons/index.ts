@@ -1,3 +1,6 @@
 export { default as Instagram } from '@/components/icons/Instagram.vue'
 export { default as Whatsapp } from '@/components/icons/Whatsapp.vue'
 export { default as Navigasi } from '@/components/icons/Navigation.vue'
+export { default as Star } from '@/components/icons/Star.vue'
+export { default as User } from '@/components/icons/User.vue'
+export { default as ArrowRight } from '@/components/icons/ArrowRight.vue'
