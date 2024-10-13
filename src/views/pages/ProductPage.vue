@@ -1,14 +1,20 @@
 <template>
   <div>
     <section
-      class="bg-[url('@/assets/images/bg-product.png')] bg-cover bg-center h-[373px] z-0"
+      class="bg-[url('@/assets/images/bg-product.png')] bg-cover bg-center h-[250px] md:h-[373px] z-0"
     ></section>
 
     <div class="bg-[#D4BB9D]">
       <div class="flex flex-col pt-20 pb-16 mx-8 space-y-20">
-        <h1 class="text-5xl italic font-bold">Our Product</h1>
+        <h1
+          class="flex justify-center text-5xl italic font-bold md:justify-start"
+        >
+          Our Product
+        </h1>
 
-        <div class="flex items-center justify-between space-x-12">
+        <div
+          class="flex flex-col items-center justify-center space-y-12 md:space-y-0 md:space-x-12 md:justify-between md:flex-row"
+        >
           <img
             data-aos="zoom-in-right"
             src="@/assets/images/mie-pangsit.png"
@@ -16,7 +22,7 @@
           />
           <div
             data-aos="zoom-in-left"
-            class="flex flex-col space-y-2 text-left"
+            class="flex flex-col space-y-4 text-center md:text-left"
           >
             <h1 class="text-3xl italic font-bold">MIE PANGSIT</h1>
             <p
@@ -32,7 +38,9 @@
           </div>
         </div>
 
-        <div class="flex items-center justify-between space-x-12">
+        <div
+          class="flex flex-col items-center justify-center space-y-12 md:space-y-0 md:space-x-12 md:justify-between md:flex-row"
+        >
           <img
             data-aos="zoom-in-right"
             src="@/assets/images/pangsit-ayam.png"
@@ -40,7 +48,7 @@
           />
           <div
             data-aos="zoom-in-left"
-            class="flex flex-col space-y-2 text-left"
+            class="flex flex-col space-y-4 text-center md:text-left"
           >
             <h1 class="text-3xl italic font-bold">
               PANGSIT AYAM KUAH CHILI OIL
@@ -57,7 +65,9 @@
           </div>
         </div>
 
-        <div class="flex items-center justify-between space-x-12">
+        <div
+          class="flex flex-col items-center justify-center space-y-12 md:space-y-0 md:space-x-12 md:justify-between md:flex-row"
+        >
           <img
             data-aos="zoom-in-right"
             src="@/assets/images/dimsum.png"
@@ -65,7 +75,7 @@
           />
           <div
             data-aos="zoom-in-left"
-            class="flex flex-col space-y-2 text-left"
+            class="flex flex-col space-y-4 text-center md:text-left"
           >
             <h1 class="text-3xl italic font-bold">DIMSUM</h1>
             <p
