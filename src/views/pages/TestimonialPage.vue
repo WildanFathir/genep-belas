@@ -13,6 +13,7 @@
 import { ref, onMounted } from 'vue'
 
 import ImageSlider from '@/components/ImageSlider.vue'
+
 import Typed from 'typed.js'
 
 const typedElement = ref<HTMLElement | null>(null)
@@ -20,7 +21,8 @@ const typedElement = ref<HTMLElement | null>(null)
 onMounted(() => {
   const options = {
     strings: ['Testimonial'],
-    typeSpeed: 100,
+    typeSpeed: 80,
+    showCursor: false,
   }
 
   if (typedElement.value) {
