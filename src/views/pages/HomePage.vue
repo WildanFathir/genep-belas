@@ -49,17 +49,20 @@
     </div>
 
     <div
-      class="flex flex-col items-center justify-center mx-6 space-y-10 md:mx-8"
+      class="flex flex-col items-center justify-center mx-6 space-y-6 md:mx-8"
     >
-      <div class="text-4xl italic font-bold text-white custom-shadow">
+      <div
+        class="relative w-full text-center text-4xl italic font-bold text-white custom-shadow min-h-[50px]"
+        style="min-height: 50px"
+      >
         <span ref="typedElement"></span>
       </div>
 
       <p class="text-2xl text-justify text-white md:text-center">
-        Dimsum dan Pangsit dengan rasa dan isisan yang Lezat, adalah hidangan
-        yang tidak hanya lezat tetapi disetiap gigitan dimsum dan Pangsit
-        memberikan sensai YUMMY YUMM. yang rasanya nikmat pedas segar hingga
-        memikat lidah dan menyenangkan perut
+        Dimsum dan Pangsit dengan rasa dan isian yang lezat adalah hidangan yang
+        tidak hanya lezat, tetapi setiap gigitan dimsum dan pangsit memberikan
+        sensasi YUMMY YUMM yang nikmat, pedas segar, hingga memikat lidah dan
+        menyenangkan perut.
       </p>
     </div>
 
@@ -114,7 +117,8 @@ onMounted(() => {
     strings: ['Welcome!', 'Selamat Datang!'],
     typeSpeed: 100,
     backSpeed: 100,
-    showCursor: true,
+    backDelay: 3000,
+    showCursor: false,
     loop: true,
   }
 
