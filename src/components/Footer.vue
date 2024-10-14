@@ -37,7 +37,7 @@ onMounted(() => {
     strings: ['where to find us?'],
     typeSpeed: 50,
     backSpeed: 25,
-    showCursor: true,
+    backDelay: 5000,
     loop: true,
   }
 
