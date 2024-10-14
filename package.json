@@ -16,6 +16,7 @@
   "dependencies": {
     "aos": "^3.0.0-beta.6",
     "pinia": "^2.2.4",
+    "swiper": "^11.1.14",
     "typed.js": "^2.1.0",
     "vue": "^3.5.11",
     "vue-router": "^4.4.5"
