@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-gradient-to-b from-[#f2d1b3] via-[#87b4b0] to-[#f2d1b3] p-8 md:p-20 flex flex-col items-center justify-center w-full"
+    class="bg-gradient-to-b from-[#f2d1b3] via-[#87b4b0] to-[#f2d1b3] p-8 md:p-20 flex flex-col items-center justify-center w-full h-full"
   >
     <div class="text-center">
       <div
