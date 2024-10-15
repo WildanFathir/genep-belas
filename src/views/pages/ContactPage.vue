@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-gradient-to-b from-[#f2d1b3] via-[#87b4b0] to-[#f2d1b3] p-8 md:p-20 flex flex-col items-center justify-center w-full h-full"
+    class="bg-gradient-to-b from-[#f2d1b3] via-[#87b4b0] to-[#f2d1b3] p-8 md:p-20 flex flex-col items-center justify-center w-full min-h-screen"
   >
     <div class="text-center">
       <div
@@ -10,7 +10,7 @@
       </div>
     </div>
     <div
-      class="w-full max-w-2xl p-6 bg-transparent rounded-lg shadow-lg md:max-w-4xl"
+      class="w-full max-w-2xl p-10 bg-transparent rounded-lg shadow-lg md:max-w-4xl"
     >
       <form class="space-y-5">
         <div class="mb-4">
