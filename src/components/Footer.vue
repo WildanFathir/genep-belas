@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="flex flex-col space-y-5 justify-center items-center bg-[#A27F6B] py-16 h-full"
+    class="flex flex-col space-y-5 justify-center items-center bg-[#A27F6B] py-16"
   >
     <p class="text-lg font-medium text-white">
       <span ref="typedElement"></span>
