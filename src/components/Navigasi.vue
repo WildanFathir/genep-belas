@@ -52,7 +52,7 @@
   <!-- Mobile Menu (toggle on burger button click) -->
   <nav
     v-if="isMenuOpen"
-    class="absolute left-0 w-full bg-white shadow-md mt-7 top-16 md:hidden"
+    class="absolute left-0 w-full bg-white shadow-md mt-7 top-12 md:hidden"
   >
     <div class="flex flex-col items-start p-4 space-y-2">
       <RouterLink
