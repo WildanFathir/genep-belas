@@ -4,6 +4,6 @@
 
 @layer components {
   .page-content {
-    @apply mt-24;
+    @apply mt-20;
   }
 }
