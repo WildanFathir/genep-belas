@@ -1,9 +1,11 @@
 <template>
   <div
-    class="bg-gradient-to-b from-[#f2d1b3] via-[#87b4b0] to-[#f2d1b3] p-8 md:p-20 flex flex-col items-center justify-center min-h-screen w-full"
+    class="bg-gradient-to-b from-[#f2d1b3] via-[#87b4b0] to-[#f2d1b3] p-8 md:p-20 flex flex-col items-center justify-center w-full"
   >
-    <div class="mb-4 text-center">
-      <div class="mb-6 text-2xl font-bold text-center md:text-4xl">
+    <div class="text-center">
+      <div
+        class="text-2xl font-bold text-center md:text-4xl min-h-[70px] md:min-h-0"
+      >
         <span ref="typedElement"></span>
       </div>
     </div>
