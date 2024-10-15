@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex justify-center items-center flex-col space-y-10 py-10 bg-[#D4BB9D]"
+    class="flex flex-col justify-center items-center min-h-screen space-y-10 py-6 bg-[#D4BB9D]"
   >
     <div class="text-5xl italic font-bold">
       <span ref="typedElement"></span>
